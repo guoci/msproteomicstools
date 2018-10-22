@@ -89,7 +89,7 @@ setup(name='msproteomicstools',
       install_requires=[
           "numpy",
           "scipy",
-          "PyMSNumpress",
+#          "PyMSNumpress",
           "cluster == 1.2.2", # note that 1.1.2 does not work with py3
           "pyteomics >= 2.4.0",
           "statsmodels >= 0.6.0",
@@ -100,7 +100,7 @@ setup(name='msproteomicstools',
           'pymzml == 0.7.8',
           'lxml',
           'configobj',
-          'biopython',
+#          'biopython',
           'xlwt',
       ] + extra_installs,
       extras_require = {
